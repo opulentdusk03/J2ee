@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="container-fluid">
+
+<header class="d-flex justify-content-between p-3 bg-black text-white">
+    <div>
+        <span class="bi bi-amazon">ShopEasy</span>
+    </div>
+    <div>
+      <span class="bi bi-house me-3">Home</span>
+      <span class="me-3">Product</span>
+      <span class="bi bi-cart4 me-3">Cart</span>
+      <span class="bi bi-search me-3">Search</span>
+    </div>
+</header>
+    <div class="text-center text-success">
+        <h2>Welcome to Easyshop</h2>
+        <p>Find the best product for best price</p>
+        <a class="btn btn-primary">Shop now</a>
+    </div>
+
+<section id="product container-5 my-5">
+    <div class="text-center">
+        <h2>Our Products</h2>
+    </div>
+<div class="row g-3 p-3">
+    <!--Product1-->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+       <div class="card product-card h-100 p-2">
+            <div class="card"> 
+                    <img src="images\lt-3.jpg" class="card-img-top">
+            </div>
+
+            <div class="card-body">
+                    <h5 class="card-title">laptop</h5>
+                    <p class="card-text">High Performances laptop for Web Design</p>
+
+            </div>
+            <div class="product-bottom">
+                   <span class="price">price:₹50,000</span>
+                    <a class="btn btn-primary"> Add to Cart</a>
+            </div>
+        </div> 
+        
+       
+    </div>
+    <!--Product2-->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+       <div class="card product-card h-100 p-2">
+            <div class="card"> 
+                    <img src="images\camera.jpg" class="card-img-top">
+            </div>
+
+            <div class="card-body">
+                    <h5 class="card-title">Camera</h5>
+                    <p class="card-text">High Performances laptop for Web Design</p>
+
+            </div>
+            <div class="product-bottom">
+                   <span class="price">price:₹50,000</span>
+                    <a class="btn btn-primary"> Add to Cart</a>
+            </div>
+        </div> 
+        
+       
+    </div>
+
+    <!--Product3-->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+       <div class="card product-card h-100 p-2">
+            <div class="card"> 
+                    <img src="images\ipods.jpg" class="card-img-top">
+            </div>
+
+            <div class="card-body">
+                    <h5 class="card-title">Ipods</h5>
+                    <p class="card-text">High Performances laptop for Web Design</p>
+
+            </div>
+            <div class="product-bottom">
+                   <span class="price">price:₹50,000</span>
+                    <a class="btn btn-primary"> Add to Cart</a>
+            </div>
+        </div> 
+        
+       
+    </div>
+
+    <!--Product4-->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+       <div class="card product-card h-100 p-2">
+            <div class="card"> 
+                    <img src="images\fridge.jpg" class="card-img-top">
+            </div>
+
+            <div class="card-body">
+                    <h5 class="card-title">Fridge</h5>
+                    <p class="card-text">High Performances laptop for Web Design</p>
+
+            </div>
+            <div class="product-bottom">
+                   <span class="price">price:₹50,000</span>
+                    <a class="btn btn-primary"> Add to Cart</a>
+            </div>
+        </div> 
+        
+       
+    </div>
+
+
+    <!--Product5-->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+       <div class="card product-card h-100 p-2">
+            <div class="card"> 
+                    <img src="images\Tv.jpg" class="card-img-top">
+            </div>
+
+            <div class="card-body">
+                    <h5 class="card-title">TV</h5>
+                    <p class="card-text">High Performances laptop for Web Design</p>
+
+            </div>
+            <div class="product-bottom">
+                   <span class="price">price:₹50,000</span>
+                    <a class="btn btn-primary"> Add to Cart</a>
+            </div>
+        </div> 
+        
+       
+    </div>
+    <!--Product6-->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+       <div class="card product-card h-100 p-2">
+            <div class="card"> 
+                    <img src="images\phone.png" class="card-img-top">
+            </div>
+
+            <div class="card-body">
+                    <h5 class="card-title">Phone</h5>
+                    <p class="card-text">High Performances laptop for Web Design</p>
+
+            </div>
+            <div class="product-bottom">
+                   <span class="price">price:₹50,000</span>
+                    <a class="btn btn-primary"> Add to Cart</a>
+            </div>
+        </div> 
+        
+       
+    </div>
+
+     <!--product7-->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+       <div class="card product-card h-100 p-2">
+            <div class="card"> 
+                    <img src="images\speakers.jpg" class="card-img-top">
+            </div>
+
+            <div class="card-body">
+                    <h5 class="card-title">Speakers</h5>
+                    <p class="card-text">High Performances laptop for Web Design</p>
+
+            </div>
+            <div class="product-bottom">
+                   <span class="price">price:₹50,000</span>
+                    <a class="btn btn-primary"> Add to Cart</a>
+            </div>
+        </div> 
+        
+       
+    </div>
+    <!--product-8-->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+       <div class="card product-card h-100 p-2">
+            <div class="card"> 
+                    <img src="images\watch.jpg" class="card-img-top">
+            </div>
+
+            <div class="card-body">
+                    <h5 class="card-title">Watch</h5>
+                    <p class="card-text">High Performances laptop for Web Design</p>
+
+            </div>
+            <div class="product-bottom">
+                   <span class="price">price:₹50,000</span>
+                    <a class="btn btn-primary"> Add to Cart</a>
+            </div>
+        </div> 
+        
+       
+    </div>
+</div>
+</section>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<footer class="bg-black text-white text-center p-3">
+    <span class="bi bi-facebook me-3">Facebook</span>
+    <span class="bi bi-youtube me-3">Youtuboe</span>
+    <span class="bi bi-instagram me-3">Instagram</span>
+    <br>All Rights Reserved &copy; 2025 AVST
+</footer>
+</body>
+
+</html>
